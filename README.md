@@ -25,7 +25,7 @@ Anggota Kelompok:
   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/2a.PNG" >
   
   - Setelah itu kita tes dengan cara ping www.semerud11.pw
-  <img src=:https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/2b.PNG">
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/2b.PNG">
   
 ## Nomor 3 : 
    

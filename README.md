@@ -150,7 +150,7 @@ Anggota Kelompok:
   
   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/10c.PNG" >
   
-## Nomor 11 : Listing pada /public tanpa public/*
+## Nomor 11 : Setelah itu kita listing pada /public tanpa public/*
 
   - Tambahkan Option +Indexes untuk directory penanjakan.semerud11.pw/public dan tambahkan Option -Indexes untuk directory penanjakan.semerud11.pw/public/*
   
@@ -166,24 +166,102 @@ Anggota Kelompok:
 
 
 
-## Nomor 12 : Setelah itu kita mensetting penanjakan.semerud11.pw
+## Nomor 12 : Setelah itu kita merubah error page dengan 404.html
+
+  - Dengan menambahkan ErrorDocument 404 /errors/404.html
+  
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/12a.PNG" >
+  
+  - Lalu apache di restart dengan cara *service apache2 restart*
+  - Hasilnya saat mengakses link yang tidak ada
+  
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/12b.PNG" >
 
 
-## Nomor 13 : Setelah itu kita mensetting penanjakan.semerud11.pw
+## Nomor 13 : Setelah itu kita mengubah inisial untuk folder javascript
+
+  - Dengan menambahkan Alias dengan memberinya alias "/js"
+  
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/13a.PNG" >
+  
+  - Lalu restart apache dengan cara *service apache2 restart*
+  - Hasilnya saat mengakses penanjakan.semerud11.pw/js seperti berikut, karena folder javascript memang tidak bisa diakses
+  
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/13b.PNG" >
 
 
-## Nomor 14 : Setelah itu kita mensetting penanjakan.semerud11.pw
+## Nomor 14 : Setelah itu kita membuat naik.gunung.semerud11.pw di port 8888
+
+  - Setting virtual host di port 8888, tambahkan server name dan document root untuk naik.gunung.semerud11.pw
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/14a.PNG" >
+  
+  - Lalu pada ports.conf Listen untuk port 8888
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/14b.PNG" >
+  
+  - Lalu restart apache dengan cara *service apache2 restart*
+  - Lalu hasilnya jika mengakses naik.gunung.semerud11.pw:8888
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/14%2615.PNG" >
 
 
-## Nomor 15 : Setelah itu kita mensetting penanjakan.semerud11.pw
 
 
-## Nomor 16 : Setelah itu kita mensetting penanjakan.semerud11.pw
+## Nomor 15 : Setelah itu kita memberikan Auth pada naik.gunung.semerud11.pw
+
+  - Membuat user "semeru" dan password "kuynaikgunung" dengan perintah dibawah
+  - Lalu tambahkan Auth untuk directory naik.gunung.semerud11.pw
+  
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/15a.PNG" >
+  
+  - Lalu restart apache dengan cara *service apache2 restart*
+  - Hasilnya saat mengakses naik.gunung.semerud11.pw:8888
+  
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/15b.PNG" >
+  
+  - Setelah memsukkan username dan password yang sesuai
+  
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/14%2615.PNG" >
 
 
-## Nomor 17 : Setelah itu kita mensetting penanjakan.semerud11.pw
+
+## Nomor 16 : Mengarahkan 10.151.79.100
+
+  - Pada awalnya keluar halaman It Works !
+  
+  - Setelah itu kita merubah .htaccess default pada PROBOLINGGO untuk meredirect ip PROBOLINGGO ke semerud11.pw
+  
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/16a.PNG" >
+  
+  - Ganti allowoverride none jadi all untuk directory /var/www/
+  
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/16b.PNG" >
+  
+  - Lalu restart apache dengan cara *service apache2 restart*
+  - Hasilnya saat mengakses 10.151.79.100
+  
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/16c.PNG" >
 
 
+
+## Nomor 17 : Mengubah semua gambar yang mengadung "semeru" ke semeru.jpg
+
+  - Rubah file .htaccess sesuai berikut
+  
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/17a.PNG" >
+  
+  - Tambahkan AllowOverride All untuk directory penanjakan.semerud11.pw
+  
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/17b.PNG" >
+   
+  - Contoh menuliskan asal yang mengandung semeru
+  
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/17c.PNG" >
+  
+  - Hasilnya semua akses file gambar yang mengandung "semeru" akan diarahkan ke semeru.jpg
+
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/17d.PNG" >
 
   
    

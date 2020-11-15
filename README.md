@@ -77,7 +77,25 @@ Anggota Kelompok:
   
   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/6a.PNG" >
   
-  - Lalu setting file pada /etc/bind/named.conf.options dan comment dnssec-validation auto
+  - Lalu setting file pada /etc/bind/named.conf.options dan comment dnssec-validation auto, dan tambahkan baris tersebut di MALANG
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/6b.PNG" >
+  
+  - Lalu setting file pada /etc/bind/named.conf.options dan comment dnssec-validation auto, dan tambahkan baris tersebut di MOJOKERTO
+  
+  
+  - Kemudian buat direktori dengan nama delegasi lalu copy db.local ke direktori gunung.semerud11.pw
+
+  - Kemudian edit file gunung.semerud11.pw menjadi seperti dibawah ini
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/6d.PNG" >
+  
+  - Lalu kita tes pada gresik sebagai berikut
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/6e.PNG" >
+  
+## Nomor 7 : Setelah itu kita membuat subdomain naik.gunung.semerub02.pw
+
 
 
 

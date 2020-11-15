@@ -12,7 +12,7 @@ Anggota Kelompok:
    - Buat folder semeru di dalam /etc/bind
    - Copykan file db.local pada path /etc/bind ke dalam folder semeru
 
-        *buat baru dan ubah namanya menjadi semerud11.pw*
+         buat baru dan ubah namanya menjadi semerud11.pw
 
    - lalu buka file semerud11.pw dan setting seperti gambar berikut
    <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/2a.PNG" >
@@ -41,7 +41,7 @@ Anggota Kelompok:
   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/4a.PNG" >
   - Copykan file db.local pada path /etc/bind ke dalam folder jarkom
 
-         *yang baru saja dibuat dan ubah namanya menjadi 79.151.10.in-addr.arpa*
+         yang baru saja dibuat dan ubah namanya menjadi 79.151.10.in-addr.arpa
 
    - Setting file 79.151.10.in-addr.arpa menjadi seperti gambar di bawah ini
    <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/4b.PNG" >

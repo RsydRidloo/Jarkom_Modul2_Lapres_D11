@@ -12,13 +12,13 @@ Anggota Kelompok:
    - Buat folder semeru di dalam /etc/bind
    - Copykan file db.local pada path /etc/bind ke dalam folder semeru
 
-        *yang baru saja dibuat dan ubah namanya menjadi semerub0d11.pw*
+        *buat baru dan ubah namanya menjadi semerud11.pw*
 
    - lalu buka file semerud11.pw dan setting seperti gambar berikut
    <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/2a.PNG" >
    
    - Setelah kita <blockquote>service bind9 restart</blockquote> , lalu kita tes
-   <img src=https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/1c.PNG" >
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/1c.PNG" >
   
 ## Nomor 2 :  Selanjutnya kita akan membuat alias
 
@@ -27,7 +27,20 @@ Anggota Kelompok:
   - Setelah itu kita tes dengan cara ping www.semerud11.pw
   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/2b.PNG">
   
-## Nomor 3 : 
+## Nomor 3 : Setelah itu kita membuat subdomain
+
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/3a.PNG">
+  
+  - Setelah itu kita tes dengan cara ping penanjakan.semerud11.pw
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/3b.PNG" >
+  
+## Nomor 4 : Setelah itu kita membuat reverse domain
+
+  - Setting file /etc/bind/named.conf.local
+  - Lalu tambahkan konfigurasi zone seperti gambar berikut
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/4a.PNG" >
+  - 
+  
    
    
    

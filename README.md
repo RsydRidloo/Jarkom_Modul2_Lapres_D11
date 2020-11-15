@@ -17,7 +17,7 @@ Anggota Kelompok:
    - lalu buka file semerud11.pw dan setting seperti gambar berikut
    <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/2a.PNG" >
    
-   - Setelah kita ### service bind9 restart , lalu kita tes
+   - Setelah kita *service bind9 restart* , lalu kita tes
    <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/1c.PNG" >
   
 ## Nomor 2 :  Selanjutnya kita akan membuat alias

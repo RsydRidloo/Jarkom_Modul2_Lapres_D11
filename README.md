@@ -72,6 +72,15 @@ Anggota Kelompok:
    <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/5c.PNG" >
 
 ## Nomor 6 : Setelah itu kita membuat subdomain di delagasikan ke MOJOKERTO dan mengarah ke PROBOLINGGO
+
+  - Setting file pada /etc/bind/semeru/semerud11.pw untuk menambah subdomain baru
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/6a.PNG" >
+  
+  - Lalu setting file pada /etc/bind/named.conf.options dan comment dnssec-validation auto
+
+
+
   
    
    

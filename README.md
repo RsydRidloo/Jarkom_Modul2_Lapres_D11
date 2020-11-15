@@ -83,10 +83,11 @@ Anggota Kelompok:
   
   - Lalu setting file pada /etc/bind/named.conf.options dan comment dnssec-validation auto, dan tambahkan baris tersebut di MOJOKERTO
   
+  ???????IMG
   
   - Kemudian buat direktori dengan nama delegasi lalu copy db.local ke direktori gunung.semerud11.pw
 
-  - Kemudian edit file gunung.semerud11.pw menjadi seperti dibawah ini
+  - Kemudian setting file gunung.semerud11.pw menjadi seperti dibawah ini
   
   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/6d.PNG" >
   
@@ -94,9 +95,25 @@ Anggota Kelompok:
   
   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/6e.PNG" >
   
-## Nomor 7 : Setelah itu kita membuat subdomain naik.gunung.semerub02.pw
+## Nomor 7 : Setelah itu kita membuat subdomain naik.gunung.semerud11.pw
 
+  - Setting file pada /etc/bind/delegasi/gunung.semerud11.pw untuk menambah subdomain baru
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/7a.PNG" >
 
+  - Lalu kita tes pada gresik sebagai berikut
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/7b.PNG" >
+  
+## Nomor 8 : Setelah itu kita mengatur webserver untuk Domain semerud11.pw
+  
+  - Dengan menambahkan ServerName dan DocumentRoot pada *nano /etc/apache2/sites-available/semerud11.pw*
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/8a.PNG" >
+  
+  - Lalu untuk melihat hasilnya dapat diakses dengan browser semerud11.pw
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/8b.PNG" >
 
 
   

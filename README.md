@@ -114,6 +114,38 @@ Anggota Kelompok:
   - Lalu untuk melihat hasilnya dapat diakses dengan browser semerud11.pw
   
   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/8b.PNG" >
+  
+## Nomor 9 : Setelah itu kita menghilangkan index.php
+
+  - Aktifkan *a2enmod rewrite*
+  
+  - Lalu untuk semerub02.pw, AllowOverride diganti All
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/9a.PNG" >
+  
+  - Lalu edit file .htaccess dan isikan seperti berikut
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/9b.PNG" >
+  
+  - Lalu untuk melihat hasilnya tinggal di coba untuk semerud11.pw/home
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/9c.PNG" >
+  
+## Nomor 10 : Setelah itu kita mensetting penanjakan.semerud11.pw
+
+  - Ekstrak file ke folder /var/www/penanjakan.semerud11.pw 
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/10a.PNG" >
+  
+  - Lalu tambahkan ServerName dan DocumentRoot dengan penanjakan.semerud11.pw pada *nano /etc/apache2/sites-available/penanjakan.semerud11.pw*
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/10b.PNG" >
+  
+  - Lalu aktifkan a2ensite penanjakan
+  - Hasilnya jika dibuka penanjakan.semerud11.pw
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/10c.PNG" >
+
 
 
   

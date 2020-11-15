@@ -46,7 +46,7 @@ Anggota Kelompok:
   
   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/4a.PNG" >
   
-  - Copykan file db.local pada path /etc/bind ke dalam folder jarkom
+  - Copykan file db.local pada path /etc/bind ke dalam folder semeru
   
 
          yang baru saja dibuat dan ubah namanya menjadi 79.151.10.in-addr.arpa

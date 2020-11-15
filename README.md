@@ -15,9 +15,11 @@ Anggota Kelompok:
          buat baru dan ubah namanya menjadi semerud11.pw
 
    - lalu buka file semerud11.pw dan setting seperti gambar berikut
+   
    <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/2a.PNG" >
    
    - Setelah kita *service bind9 restart* , lalu kita tes
+   
    <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/1c.PNG" >
   
 ## Nomor 2 :  Selanjutnya kita akan membuat alias
@@ -25,6 +27,7 @@ Anggota Kelompok:
   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/2a.PNG" >
   
   - Setelah itu kita tes dengan cara ping www.semerud11.pw
+  
   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/2b.PNG">
   
 ## Nomor 3 : Setelah itu kita membuat subdomain
@@ -32,6 +35,7 @@ Anggota Kelompok:
   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/3a.PNG">
   
   - Setelah itu kita tes dengan cara ping penanjakan.semerud11.pw
+  
   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/3b.PNG" >
   
 ## Nomor 4 : Setelah itu kita membuat reverse domain
@@ -83,7 +87,7 @@ Anggota Kelompok:
   
   - Lalu setting file pada /etc/bind/named.conf.options dan comment dnssec-validation auto, dan tambahkan baris tersebut di MOJOKERTO
   
-  ???????IMG
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/6confmojo.PNG" >
   
   - Kemudian buat direktori dengan nama delegasi lalu copy db.local ke direktori gunung.semerud11.pw
 
@@ -145,6 +149,39 @@ Anggota Kelompok:
   - Hasilnya jika dibuka penanjakan.semerud11.pw
   
   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/10c.PNG" >
+  
+## Nomor 11 : Listing pada /public tanpa public/*
+
+  - Tambahkan Option +Indexes untuk directory penanjakan.semerud11.pw/public dan tambahkan Option -Indexes untuk directory penanjakan.semerud11.pw/public/*
+  
+  <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/11a.PNG" >
+  
+  - Hasilnya saat mengakses penanjakan.semerud11.pw/public/
+  
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/11b.PNG" >
+  
+  - Hasilnya saat mengakses penanjakan.semerud11.pw/public/images/
+  
+   <img src="https://github.com/RsydRidloo/Jarkom_Modul2_Lapres_D11/blob/main/Foto/11c.PNG" >
+
+
+
+## Nomor 12 : Setelah itu kita mensetting penanjakan.semerud11.pw
+
+
+## Nomor 13 : Setelah itu kita mensetting penanjakan.semerud11.pw
+
+
+## Nomor 14 : Setelah itu kita mensetting penanjakan.semerud11.pw
+
+
+## Nomor 15 : Setelah itu kita mensetting penanjakan.semerud11.pw
+
+
+## Nomor 16 : Setelah itu kita mensetting penanjakan.semerud11.pw
+
+
+## Nomor 17 : Setelah itu kita mensetting penanjakan.semerud11.pw
 
 
 
